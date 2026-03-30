@@ -27,7 +27,7 @@ body {
 
 .card .img-card {
     height: 100px;
-    background-image: url("https://www.amd.com/system/files/2020-05/461767_MSI_Bravo_17_AMD_laptop_1260x709_0.png");
+    background-image: url("./img/laptop_gamer_amd.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center ;
@@ -41,7 +41,6 @@ body {
 }
 
 
-
 .card button {
     background: #e2a30b;
     color: white;
@@ -51,6 +50,12 @@ body {
 
 .total-section {
     width: 200px;
-    padding: 35px;
+    padding: 20px 5px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.valor-total {
+    margin-left: 4px;
 }

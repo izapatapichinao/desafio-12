@@ -11,7 +11,7 @@ let totalSpan = document.querySelector(".valor-total");
 // FUNCION para actualizar el total
 function actualizarTotal() {
     let total = precio * quantity;
-    totalSpan.innerHTML = total;
+    totalSpan.innerHTML = "$ " + total;
 };
 
 // Buttons
